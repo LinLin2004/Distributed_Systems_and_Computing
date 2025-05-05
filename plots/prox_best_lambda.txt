@@ -1,0 +1,2 @@
+Best λ for prox: 0.0
+Test MSE: 0.483176
