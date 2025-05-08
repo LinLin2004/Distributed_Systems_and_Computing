@@ -1,2 +1,0 @@
-Best gamma for nesterov: 0.3
-Test MSE: 0.488283
