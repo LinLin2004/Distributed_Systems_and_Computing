@@ -7,7 +7,7 @@ from optimizers import optimize
 import numpy as np
 import matplotlib.ticker as ticker 
 def load_data():
-    dataset_dir = '/home/smbu/junior/disturbuted/EX2'
+    dataset_dir = '/home/smbu/junior/disturbuted/EX2' # 数据集存放目录
     data = fetch_california_housing(data_home=dataset_dir, download_if_missing=True)
     X = torch.tensor(data.data, dtype=torch.float32)
     y = torch.tensor(data.target, dtype=torch.float32).view(-1, 1)
