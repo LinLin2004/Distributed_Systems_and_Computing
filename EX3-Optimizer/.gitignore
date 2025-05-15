@@ -1,0 +1,47 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local data and output directories
+/data/
+/plots/
+/plots_search/
+/runs/
+
+# Virtual environments
+venv/
+.env/
+venv*/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Local configuration files
+*.env
+*.local
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Compression files
+*.gz
+*.zip
+*.tar
+
+# Exceptions (keep these files)
+!main.py
+!model.py
+!optimizers.py
+!utils.py
+!readme_EX3.md
